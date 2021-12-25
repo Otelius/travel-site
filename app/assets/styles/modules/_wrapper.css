@@ -7,6 +7,20 @@
     &--medium {
         max-width: 976px;
     }
+    &--no-padding-until-medium {
+        padding: 0 0;
+
+        @mixin atMedium {
+            padding: 0 18px;
+        }
+    }
+    &--no-padding-until-large {
+        padding: 0 0;
+
+        @mixin atLarge {
+            padding: 0 18px;
+        }
+    }
     .wrapper {
         padding: 0;
     }
