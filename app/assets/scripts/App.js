@@ -1,6 +1,7 @@
 import '../styles/styles.css'
 import 'lazysizes'
 // import Person from './modules/Person'
+
 import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
@@ -29,7 +30,7 @@ document.querySelectorAll('.open-modal').forEach(el => {
         module.hot.accept()
     }
 
-console.log('Test from App.js!')
+// console.log('Test from App.js!')
 // // Example code
 // class Adult extends Person {
 //     payTaxes() {
